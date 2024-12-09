@@ -1,0 +1,22 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Asteroid
+{% endblock %}
+
+{% block body %}
+	<main class="container-fluid">
+		<div class="row">
+			<div class="col-12 mt-3">
+				<h1 class="fw-bolder rounded p-3 mx-auto title">Asteroids Game</h1>
+				<span class="fw-bold text-white p-2 rounded border border-warning ms-5">
+					Utilisez les flèches ◀  ▶ du clavier pour déplacer le vaisseau
+				</span>
+			</div>
+		</div>
+		<div class="col-12">
+			<twig:Game/>
+		</div>
+	</main>
+
+
+{% endblock %}
